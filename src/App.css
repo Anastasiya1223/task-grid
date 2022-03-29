@@ -1,6 +1,23 @@
 html,
 body,
-#root {
-    height: 100%;
-    margin: 0;
+section {
+    display: grid;
+    width: 700px;
+    height: 400px;
+    Margin-top:0;
+    Margin: left 0;
+    Margin: Right 0;
+    Margin: 0;
+}
+div{
+
+    background: #DAA520;
+
+}
+.grid-container {
+
+    grid-template-columns: 340px 340px;
+    grid-template-rows: 1fr 200px 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
 }
